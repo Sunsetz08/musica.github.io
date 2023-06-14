@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body { background-color: rgb(55, 22, 107);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+  
+.album {
+    background-color: #21135c;
+    padding: 10px;
+    text-align: center;
+}
+  
+.album img {
+    max-width: 100%;
+    height: 500px;
+}
+header {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+h3 {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    color: aliceblue;
+}
